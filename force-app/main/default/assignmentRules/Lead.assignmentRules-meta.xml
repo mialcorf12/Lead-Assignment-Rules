@@ -15,7 +15,7 @@
         <ruleEntry>
             <assignedTo>darren.rowland@ulabsystems.com</assignedTo>
             <assignedToType>User</assignedToType>
-            <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+            <booleanFilter>1 AND 2</booleanFilter>
             <criteriaItems>
                 <field>Lead.Country</field>
                 <operation>equals</operation>
@@ -24,18 +24,13 @@
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>BC,AB,SK,MB</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Lead.State</field>
-                <operation>equals</operation>
-                <value>British Columbia,Alberta,Saskatchewan,Manitoba</value>
+                <value>AB,Alberta,BC,British Columbia,MB,Manitoba,SK,Saskatchewan</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
             <assignedTo>tyler@ulabsystems.com</assignedTo>
             <assignedToType>User</assignedToType>
-            <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+            <booleanFilter>1 AND 2</booleanFilter>
             <criteriaItems>
                 <field>Lead.Country</field>
                 <operation>equals</operation>
@@ -44,12 +39,7 @@
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>ON,QC,NL,NB,PE,NS</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Lead.State</field>
-                <operation>equals</operation>
-                <value>Ontario,Quebec,Newfoundland,Prince Edward Island,New Brunswick,Nova Scotia</value>
+                <value>NB,New Brunswick,NL,Newfoundland,NS,Nova Scotia,ON,Ontario,PE,Prince Edward Island,QC,Quebec</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
@@ -59,7 +49,7 @@
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>GU,Guam,NV,Nevada</value>
+                <value>GU,Guam</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Lead.PostalCode</field>
@@ -73,7 +63,7 @@
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>VI,TN,AL,FL,Alabama,Tennessee,Florida,Virgin Island,PR,Puerto Rico</value>
+                <value>AL,Alabama,FL,Florida,PR,Puerto Rico,TN,Tennessee,VI,Virgin Island</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
@@ -82,37 +72,25 @@
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>AZ,CO,Utah,UT,Arizona,Colorado</value>
+                <value>AZ,Arizona,CO,Colorado,UT,Utah,WY,Wyoming</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
             <assignedTo>rick@ulabsystems.com</assignedTo>
             <assignedToType>User</assignedToType>
-            <booleanFilter>1 OR 2</booleanFilter>
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>ID,MT,OR,WA,AK</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Lead.State</field>
-                <operation>equals</operation>
-                <value>Idaho,Montana,Oregon,Washington,Alaska</value>
+                <value>AK,Alaska,ID,Idaho,MT,Montana,OR,Oregon,WA,Washington</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
             <assignedTo>evan.grzelak@ulabsystems.com</assignedTo>
             <assignedToType>User</assignedToType>
-            <booleanFilter>1 or 2</booleanFilter>
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>Illinois,Wisconsin,Iowa,Missouri,Minnesota</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Lead.State</field>
-                <operation>equals</operation>
-                <value>IL,WI,IA,MO,MN</value>
+                <value>IA,Iowa,IL,Illinois,MN,Minnesota,MO,Missouri,WI,Wisconsin</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
@@ -172,16 +150,22 @@
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>OH,IN,KY,Indiana,Kentucky,Ohio,WV,West Virginia</value>
+                <value>IN,Indiana,KY,Kentucky,MI,Michigan,OH,Ohio,WV,West Virginia</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
             <assignedTo>tommy.macdonald@ulabsystems.com</assignedTo>
             <assignedToType>User</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>CT,MA,ME,NH,RI,VT,Connecticut,Massachusetts,Maine,New Hampshire,Rhode Island,Vermont</value>
+                <value>CT,Connecticut,MA,Massachusetts,ME,Maine,NH,New Hampshire,RI,Rhode Island,VT,Vermont</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.PostalCode</field>
+                <operation>startsWith</operation>
+                <value>120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
@@ -191,7 +175,7 @@
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>DC,DE,MD,District of Columbia,Delaware,Maryland</value>
+                <value>DC,District of Columbia,DE,Delaware,MD,Maryland</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Lead.PostalCode</field>
@@ -247,10 +231,16 @@
         <ruleEntry>
             <assignedTo>sean.bickford@ulabsystems.com</assignedTo>
             <assignedToType>User</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>NJ,NY,New York,New Jersey</value>
+                <value>NJ,New Jersey</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.PostalCode</field>
+                <operation>startsWith</operation>
+                <value>100,101,102,103,104,110,111,112,113,114,115,116,117,118,119</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
@@ -260,7 +250,7 @@
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>Oklahoma,Kansas,Nebraska,South Dakota,North Dakota,KS,NB,SD,ND,OK</value>
+                <value>KS,Kansas,ND,North Dakota,NE,Nebraska,OK,Oklahoma,SD,South Dakota</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Lead.PostalCode</field>
@@ -295,7 +285,7 @@
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>NC,North Carolina,VA,Virginia</value>
+                <value>GA,Georgia,NC,North Carolina,SC,South Carolina,VA,Virginia</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Lead.PostalCode</field>
@@ -320,7 +310,7 @@
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
-                <value>Arkansas,NM,New Mexico,LA,MS,Louisiana,Mississippi,AR</value>
+                <value>AR,Arkansas,LA,Louisiana,MS,Mississippi,NM,New Mexico</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Lead.PostalCode</field>
@@ -346,6 +336,15 @@
                 <field>Lead.PostalCode</field>
                 <operation>equals</operation>
                 <value>79605,79607</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>kayla.hughes@ulabsystems.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.State</field>
+                <operation>equals</operation>
+                <value>NV,Nevada</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>

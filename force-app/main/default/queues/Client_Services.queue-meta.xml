@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesIncludeBosses>true</doesIncludeBosses>
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>support@ulabsystems.com</email>
+    <name>Client Services</name>
+    <queueMembers>
+        <roles>
+            <role>Client_Services_Manager</role>
+            <role>Client_Services_Representative</role>
+            <role>Director_Customer_Support</role>
+        </roles>
+        <users>
+            <user>chelsey@ulabsystems.com</user>
+            <user>ruben@ulabsystems.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>
