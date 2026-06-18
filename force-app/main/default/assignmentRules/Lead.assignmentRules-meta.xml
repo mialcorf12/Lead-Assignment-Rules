@@ -255,7 +255,7 @@
             <criteriaItems>
                 <field>Lead.PostalCode</field>
                 <operation>startsWith</operation>
-                <value>750,752,754,755,761,762,763,790,791,792,793,794,797,840,841,843,844,846</value>
+                <value>750,752,754,755,761,762,763,790,791,792,793,794,797</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Lead.PostalCode</field>
@@ -275,32 +275,16 @@
             <criteriaItems>
                 <field>Lead.PostalCode</field>
                 <operation>equals</operation>
-                <value>79529,79532,79533,79534,79535,79537,79539,79540,79543,79544,79545,79546,79547,79549,79553,79556,79560,79565,79601,84501,84513,84518,84520,84521,84522,84523,84525,84526,84528,84532,84534,84537,84539,84542,84701,84711,84724,84728,84730,84744,84754</value>
+                <value>79529,79532,79533,79534,79535,79537,79539,79540,79543,79544,79545,79546,79547,79549,79553,79556,79560,79565,79601</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
             <assignedTo>paul@ulabsystems.com</assignedTo>
             <assignedToType>User</assignedToType>
-            <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
             <criteriaItems>
                 <field>Lead.State</field>
                 <operation>equals</operation>
                 <value>GA,Georgia,NC,North Carolina,SC,South Carolina,VA,Virginia</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Lead.PostalCode</field>
-                <operation>startsWith</operation>
-                <value>224,225,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,255,256,257,258,259,262,266</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Lead.PostalCode</field>
-                <operation>equals</operation>
-                <value>20106,20115,20119,20128,20137,20138,20139,20181,20186,20187,20198,22610,22627,22630,22639,22642,22643,22644,22645,22652,22654,22657,22660,22664,26136,26137,26143,26147,26148,26160,26164,26178,26321,26325,26335,26338,26351,26362,26372,26376,26378</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Lead.PostalCode</field>
-                <operation>equals</operation>
-                <value>26385,26412,26416,26426,26430,26436,26443,26447,26452,26456,26802,26804,26807,26814,26815,26866,26884,26886</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>

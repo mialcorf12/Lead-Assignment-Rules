@@ -4,9 +4,9 @@
 		<members>Lead.uLab Lead Assignments</members>
 		<name>AssignmentRule</name>
 	</types>
-	<types>
+	<!--<types>
 		<members>Client_Services</members>
 		<name>Queue</name>
-	</types>
+	</types>-->
 	<version>67.0</version>
 </Package>
